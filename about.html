@@ -40,7 +40,7 @@
 			<div class="hd_bar">
 				<div class="container">
 					<div class="header-bar">
-							<div class="logo" style="padding-top: 15px">
+							<div class="logo">
 									<h1 style="color: white">YemiBat</h1>
 									<!-- <a href="#" title=""><img src="/static/images/log.png" alt=""></a> -->
 								</div><!--logo end-->
@@ -77,10 +77,24 @@
 		</header>	
 
 		<style>
+			@media (max-width: 991px){
+.header-bar {
+    padding: 10px 30px;
+}
+}
+
 
 				@media (min-width: 701px) {
-				
-					.heading-title {
+.eg{
+
+	height: 100vh;
+}
+
+					.logo{
+padding-top: 15px
+
+}
+					.elt {
     font-weight: 600;
     font-size: 40px;
     text-transform: capitalize;
@@ -144,12 +158,17 @@
 				}
 				@media (max-width: 702px) {
 
-					.heading-title {
+					.elt {
 						font-size: 40px;
-    margin-bottom: 136px;
+    margin-bottom: 30px;
 	font-weight: 600;
 	margin-left: 20px
 
+}
+
+.eg{
+
+height: 410px;
 }
 
 					.ft-contact-info{
@@ -231,10 +250,12 @@
 		<section>
 			<div class="block no-padding">
 				<div class="banner-section bg-image" >
-				<div  class="bg-image" style="position: relative;background-image: url(/static/images/ren5.jpg); height: 100vh;" >
+				<div  class="bg-image eg" style="position: relative;background-image: url(/static/images/ren5.jpg); " >
 				<div style="position: absolute; bottom: 0px">
-					<h3 class="heading-title" style="float: bottom; vertical-align: baseline">About Us</h3>
+					<div style="float: bottom; vertical-align: baseline">
+					<h3 class="heading-title elt" >About Us</h3>
 				</div>
+			</div>
 				</div>
 
 
