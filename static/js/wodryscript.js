@@ -3,7 +3,7 @@ $(window).on("load", function() {
 
   $(".wodry").wodry({
     animation: "rotateX",
-    delay: 2000,
+    delay: 1800,
     animationDuration: 2800
   });
 });
