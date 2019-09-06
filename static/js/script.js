@@ -34,6 +34,16 @@ $(window).on("load", function() {
     return false;
   });
 
+  // var typed = new Typed(".int", {
+  //   // Waits 1000ms after typing "First"
+  //   strings: ["to satisfy", "to impress", "to perfection", "to impress"],
+  //   /* "First ^1000 sentence." */
+  //   //  smartBackspace: false,
+  //   typeSpeed: 80,
+  //   backSpeed: 35,
+  //   loop: true
+  // });
+
   // =============== Making Div Alignment =================
 
   if ($(window).width() > 991) {

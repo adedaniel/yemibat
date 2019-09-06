@@ -1,13 +1,13 @@
 #flip {
-    height: 100px;
+    height: 80px;
     overflow: hidden;
 }
 
 #flip>div>div {
     color: #fff;
-    padding: 13px 12px;
+    padding: 6px 0px;
     height: 85px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     display: inline-block;
 }
 
